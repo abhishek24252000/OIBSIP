@@ -1,0 +1,57 @@
+/* .converts{
+    margin: auto;
+    padding: 100px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(207, 77, 77);
+    font-size: 30px;
+}
+
+.convert{
+    margin: auto;
+    overflow: hidden;
+}
+
+.reset{
+    margin: auto;
+    overflow: hidden;
+}
+
+#inbox{
+    width: 150px;
+} */
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #10101a;
+}
+form{
+    color: #2fbf71;
+    margin: auto;
+    padding: 100px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+}
+form h2{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -40px;
+    margin: 0px 0px;
+}
+hr{
+    margin-bottom: 32px;
+}
+
+
+#fahrenheit{
+    margin-top: 25px;
+}
+#convert{
+    cursor: pointer;
+}
+#reset{
+    cursor: pointer;
+}
